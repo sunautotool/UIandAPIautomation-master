@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="UI Automation" verbose="10">
+  	<parameter name="selenium.host" value="localhost" />
+	<parameter name="selenium.port" value="3737" />
+	<parameter name="selenium.browser" value="chrome" />
+	<parameter name="selenium.url" value="https://blazedemo.com"/>
+		
+	<test name="TC" preserve-order="true">
+    <classes>
+      <class name="Tools_Automation.UIandAPIautomation.UI.BookAFlight">
+     
+       <methods>
+          <include name="flightbooktestcases" />
+          <exclude name=""/>
+        </methods>  
+              
+      </class>
+    </classes>
+  </test>
+ </suite>
+		
